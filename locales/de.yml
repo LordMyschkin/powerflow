@@ -1,0 +1,104 @@
+system_power: System Power
+power_flow: Power Flow
+on_battery: On Battery
+power_usage: Power Usage
+temperature: Temperatur
+temperature_desc: Aktuelle Akkutemperatur
+battery_health: Akkuzustand
+battery_health_desc: Aktueller Akkuzustand
+cycle_count: Ladezyklen
+cycle_count_desc: Gesamtzahl an Zyklen
+energy: Energie
+designed_capacity: Urspr. Kapazität
+times: Mal
+
+status:
+  on_battery: On Battery
+  offline: offline
+  charging_power: Ladestrom
+  system_power: Systemlast
+  to_full: bis voll
+  to_empty: bis leer
+  fully_charged: Voll geladen
+  battery_in: Akku in 
+  power_loss: Stromverlust
+  screen_power: Bildschirm
+  heatpipe_power: SoC
+  system_total: System
+  system_other: Anderes
+
+flow:
+  screen_power:Bildschirmlast
+  heatpipe_power: SoC-Last
+  system_total: System-Gesamtlast
+  system_in: System In
+  battery_in: Akku In
+  battery_out: Akku Out
+  power_loss: Stromverlust
+  adapter_power: Ladestrom
+
+settings:
+  appearance: Aussehen
+  theme: Theme
+  theme_light: Hell
+  theme_dark: Dunkel
+  theme_system: System
+  theme_desc: Ändere das Theme der App
+  language: Sprpache
+  language_desc: Setze die Programm-Sprache
+  auto: Auto
+  animations: Animationen
+  animations_desc: Weiche übergänge für Laständerungen
+  update_and_monitoring: Update & Monitoring
+  update_frequency: Update-Frequenz
+  update_frequency_desc: Frequenz der Lastdaten-Speicherungen
+  background_monitoring: Hintergrund-Monitoring
+  background_monitoring_desc: Lass die App im Hintergrund laufen
+  status_bar: Status Bar
+  status_bar_desc: Welche Informationen in der Statusbar angezeigt werden
+  system_total: System Gesamt
+  screen_power: Bildschirm Last
+  heatpipe_power: Heatpipe Last
+  show_charging_power: Zeige Ladestrom
+  show_charging_power_desc: Zeige beim Laden den Ladestrom statt der Gesamt-Last
+  about: Über
+
+  version: Version
+  build: Build
+  license: License
+  author: Author
+
+time:
+  minute: minute|minute|minutes
+  hour: minute|hour|hours
+
+time_ago_options:
+  day_future: in 0 days|tomorrow|in {n} days
+  day_past: 0 days ago|yesterday|{n} days ago
+  hour_future: in 0 hours|in 1 hour|in {n} hours
+  hour_past: 0 hours ago|1 hour ago|{n} hours ago
+  just_now: just now
+  minute_future: in 0 minutes|in 1 minute|in {n} minutes
+  minute_past: 0 minutes ago|1 minute ago|{n} minutes ago
+  month_future: in 0 months|next month|in {n} months
+  month_past: 0 months ago|last month|{n} months ago
+  second_future: just now|in {n} second|in {n} seconds
+  second_past: just now|{n} second ago|{n} seconds ago
+  short_day_future: in {n}d
+  short_day_past: '{n}d'
+  short_hour_future: in {n}h
+  short_hour_past: '{n}h'
+  short_minute_future: in {n}min
+  short_minute_past: '{n}min'
+  short_month_future: in {n}mo
+  short_month_past: '{n}mo'
+  short_second_future: in {n}s
+  short_second_past: '{n}s'
+  short_week_future: in {n}w
+  short_week_past: '{n}w'
+  short_year_future: in {n}y
+  short_year_past: '{n}y'
+  week_future: in 0 weeks|next week|in {n} weeks
+  week_past: 0 weeks ago|last week|{n} weeks ago
+  year_future: in 0 years|next year|in {n} years
+  year_past: 0 years ago|last year|{n} years ago
